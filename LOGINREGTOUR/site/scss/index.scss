@@ -1,0 +1,266 @@
+@import "extend.scss";
+@import "mixin.scss";
+@import "fonts.scss";
+
+body {
+  @include color_bg(#000);
+  margin: 0 auto;
+  padding: 0;
+}
+.body {
+  background-image: url("/img/image12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1080px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+header {
+}
+.header {
+  width: 1820px;
+  margin: 0 auto;
+}
+.Gris {
+  @include color_bg(#262626);
+}
+.blanc_rectengle {
+  @include color_bg(#262626);
+  width: 500px;
+}
+/*Up grey*/
+.Up_Gris {
+  @extend %extend_displayFlex;
+}
+.blanc_rectengle {
+  width: 500px;
+  height: 150px;
+  background-color: aliceblue;
+}
+.social_medias {
+}
+.social_media {
+}
+.private_cabs {
+  @extend %extend_displayFlex;
+  padding: 30px 0 40px;
+  gap: 15px;
+}
+.private_cab {
+  border-radius: 100%;
+  padding: 15px;
+  border: 1px solid #949494;
+  background: #14939b;
+}
+/*Down red*/
+.Down_Gris {
+  @extend %extend_displayFlex;
+  border-bottom: 5px solid #c80030;
+  border-top: 5px solid #000;
+}
+.rouge_rectangle {
+  @include width_height(500px, 100px);
+  @include color_bg(#c80030);
+}
+.enregistrement {
+  display: flex;
+}
+.border_rectengle {
+}
+.droite_block {
+  display: flex;
+  align-items: center;
+}
+.enreg {
+  padding-right: 50px;
+  padding-left: 50px;
+  @extend %extend_FontMontserrat;
+}
+.SignIn {
+  @extend %extend_FontMontserrat;
+  padding-right: 50px;
+}
+/*BLOCK ONE IN THE MAIN*/
+.main {
+  color: white;
+  margin: 0 auto;
+}
+.block__one {
+  margin-top: 190px;
+  width: 1820px;
+  margin: 0 auto;
+}
+.block_one {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+.cybersport {
+  @extend %extend_displayFlex_TWO;
+  flex-direction: column;
+}
+.ask_one {
+  @extend %extend_FontMontserrat_40_reg;
+}
+.ask_two {
+  @extend %extend_FontMontserrat_60_reg;
+}
+.button {
+  @extend %extend_displayFlex_TWO;
+}
+.cybersport_text {
+  @extend %extend_FontNosiferCaps;
+  margin-top: 40px;
+}
+.keybord,
+.mouse {
+  width: 180px;
+  height: 180px;
+}
+/*The button under CB*/
+.button {
+  margin-top: 150px;
+}
+.more {
+  padding: 30px 150px;
+  @extend %extend_FontMontserrat_40_;
+  font-weight: 900;
+  background-color: #14939b;
+  @include colors_texts(#fff);
+  border-right: 40px solid #fff;
+  border-left: 40px solid #fff;
+}
+
+/*The Block two */
+
+.block__two {
+  @extend %extend_displayFlex;
+  margin-top: 230px;
+  background: linear-gradient(to top, #011d1b, #000000);
+}
+.block_two {
+  margin-left: 40px;
+}
+.take_the_command {
+  margin-bottom: 80px;
+}
+
+.bt_text_one,
+.bt_text_two,
+.bt_text_un,
+.bt_text_deux {
+  @include colors_texts(#fff);
+  @extend %extend_Montserrat;
+}
+.bt_text_one {
+  font-size: 64px;
+  font-weight: 600;
+}
+.bt_text_two {
+  font-size: 40px;
+  font-weight: normal;
+}
+.bt_text_un {
+  font-size: 36px;
+  font-weight: 600;
+}
+.bt_text_deux {
+  font-size: 36px;
+  font-weight: normal;
+}
+.bt_text_two,
+.bt_text_deux {
+  padding-top: 20px;
+}
+/*button*/
+.botton_deux {
+  display: flex;
+  margin-top: 165px;
+  gap: 65px;
+  margin-bottom: 250px;
+}
+.goSign {
+  @extend %extend_Montserrat;
+  font-size: 64px;
+  font-weight: 500;
+  padding: 10px 60px;
+  @include colors_texts(#fff);
+  background-color: #c80030;
+}
+/*The third block*/
+.block__trois {
+}
+.block_trois {
+}
+.title_block_trois {
+  @extend %extend_Montserrat;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+.block_trois_imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 150px;
+}
+.cards {
+  flex-basis: 23%;
+}
+
+/*Footer*/
+.title_footer {
+  @extend %extend_FontMontserrat_40_;
+  margin-bottom: 75px;
+  margin-top: 80px;
+}
+.footer_cont_0 {
+  display: flex;
+  justify-content: space-between;
+  width: 1820px;
+  margin: 0 auto;
+}
+.white_border {
+  @include width_height(100%, 5px);
+  @include color_bg(#fff);
+  display: flex;
+}
+.title_footer {
+  @include colors_texts(#fff);
+}
+.email_text {
+  @include colors_texts(#1b7e66);
+}
+.email_UnderText {
+  @include colors_texts(#8b8b8b);
+}
+.blanc_border {
+  @include width_height(5px, 300px);
+  @include color_bg(#fff);
+}
+.footer_contain_two {
+  display: flex;
+  margin-top: 75px;
+}
+.email {
+  @extend %extend_displayFlex_TWO;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 100px 0 100px;
+}
+.email_text {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  @extend %extend_FontMontserrat_40_;
+  font-weight: 500;
+}
+.email_UnderText {
+  @include colors_texts(#8b8b8b);
+  @extend %extend_Montserrat;
+}

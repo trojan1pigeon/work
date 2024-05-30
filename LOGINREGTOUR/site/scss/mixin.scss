@@ -1,0 +1,10 @@
+@mixin colors_texts($color) {
+  color: $color;
+}
+@mixin color_bg($bg_color) {
+  background: $bg_color;
+}
+@mixin width_height($width, $height) {
+  width: $width;
+  height: $height;
+}

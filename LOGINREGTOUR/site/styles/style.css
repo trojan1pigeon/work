@@ -1,0 +1,318 @@
+.block__two, .Down_Gris, .private_cabs, .Up_Gris {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.email, .button, .cybersport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignIn, .enreg {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.ask_one {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.email_text, .title_footer, .more {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+.ask_two {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.cybersport_text {
+  font-family: "Nosifer", sans-serif;
+  font-size: 96px;
+}
+
+.email_UnderText, .title_block_trois, .goSign, .bt_text_one,
+.bt_text_two,
+.bt_text_un,
+.bt_text_deux {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #000;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.body {
+  background-image: url("/img/image12.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1080px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  width: 1820px;
+  margin: 0 auto;
+}
+
+.Gris {
+  background: #262626;
+}
+
+.blanc_rectengle {
+  background: #262626;
+  width: 500px;
+}
+
+/*Up grey*/
+.blanc_rectengle {
+  width: 500px;
+  height: 150px;
+  background-color: aliceblue;
+}
+
+.private_cabs {
+  padding: 30px 0 40px;
+  gap: 15px;
+}
+
+.private_cab {
+  border-radius: 100%;
+  padding: 15px;
+  border: 1px solid #949494;
+  background: #14939b;
+}
+
+/*Down red*/
+.Down_Gris {
+  border-bottom: 5px solid #c80030;
+  border-top: 5px solid #000;
+}
+
+.rouge_rectangle {
+  width: 500px;
+  height: 100px;
+  background: #c80030;
+}
+
+.enregistrement {
+  display: flex;
+}
+
+.droite_block {
+  display: flex;
+  align-items: center;
+}
+
+.enreg {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.SignIn {
+  padding-right: 50px;
+}
+
+/*BLOCK ONE IN THE MAIN*/
+.main {
+  color: white;
+  margin: 0 auto;
+}
+
+.block__one {
+  margin-top: 190px;
+  width: 1820px;
+  margin: 0 auto;
+}
+
+.block_one {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+.cybersport {
+  flex-direction: column;
+}
+
+.cybersport_text {
+  margin-top: 40px;
+}
+
+.keybord,
+.mouse {
+  width: 180px;
+  height: 180px;
+}
+
+/*The button under CB*/
+.button {
+  margin-top: 150px;
+}
+
+.more {
+  padding: 30px 150px;
+  font-weight: 900;
+  background-color: #14939b;
+  color: #fff;
+  border-right: 40px solid #fff;
+  border-left: 40px solid #fff;
+}
+
+/*The Block two */
+.block__two {
+  margin-top: 230px;
+  background: linear-gradient(to top, #011d1b, #000000);
+}
+
+.block_two {
+  margin-left: 40px;
+}
+
+.take_the_command {
+  margin-bottom: 80px;
+}
+
+.bt_text_one,
+.bt_text_two,
+.bt_text_un,
+.bt_text_deux {
+  color: #fff;
+}
+
+.bt_text_one {
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.bt_text_two {
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.bt_text_un {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.bt_text_deux {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.bt_text_two,
+.bt_text_deux {
+  padding-top: 20px;
+}
+
+/*button*/
+.botton_deux {
+  display: flex;
+  margin-top: 165px;
+  gap: 65px;
+  margin-bottom: 250px;
+}
+
+.goSign {
+  font-size: 64px;
+  font-weight: 500;
+  padding: 10px 60px;
+  color: #fff;
+  background-color: #c80030;
+}
+
+/*The third block*/
+.title_block_trois {
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
+.block_trois_imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-bottom: 150px;
+}
+
+.cards {
+  flex-basis: 23%;
+}
+
+/*Footer*/
+.title_footer {
+  margin-bottom: 75px;
+  margin-top: 80px;
+}
+
+.footer_cont_0 {
+  display: flex;
+  justify-content: space-between;
+  width: 1820px;
+  margin: 0 auto;
+}
+
+.white_border {
+  width: 100%;
+  height: 5px;
+  background: #fff;
+  display: flex;
+}
+
+.title_footer {
+  color: #fff;
+}
+
+.email_text {
+  color: #1b7e66;
+}
+
+.email_UnderText {
+  color: #8b8b8b;
+}
+
+.blanc_border {
+  width: 5px;
+  height: 300px;
+  background: #fff;
+}
+
+.footer_contain_two {
+  display: flex;
+  margin-top: 75px;
+}
+
+.email {
+  flex-direction: column;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding: 100px 0 100px;
+}
+
+.email_text {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.email_UnderText {
+  color: #8b8b8b;
+}
+
+/*# sourceMappingURL=style.css.map */

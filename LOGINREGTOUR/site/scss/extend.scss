@@ -1,0 +1,14 @@
+%extend_displayFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+%extend_displayFlex_TWO {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%extend_displayFlex_center {
+  display: flex;
+  justify-content: center;
+}
